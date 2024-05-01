@@ -12,7 +12,6 @@ DrJay = Client(
       bot_token=BOT_TOKEN
 )
 
-
 print("Bot started")
 
 DrJay.run()

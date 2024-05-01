@@ -15,11 +15,12 @@ DrJay = Client(
 
 @DrJay.on_message(filters.command("start"))
 async def start_cmd(client, message):
-      print("START Command")
+      await message.reply_text("Hi everyone")
 
 @DrJay.on_message(filters.command("help"))
 async def help_cmd(client, message):
-      print("HELP Command")
+      await message.reply_text("Please feel free to contact me guys")
+
 
 
 print("Bot started")
